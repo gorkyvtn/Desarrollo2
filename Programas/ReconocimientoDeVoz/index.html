@@ -1,0 +1,10 @@
+<script type="text/javascript" src="annyang.min.js"></script>
+<script type="text/javascript">
+if (annyang) {
+    var commands = { 'show tps report': function() {
+    $('#tpsreport').animate({bottom: '-100px'});
+    }};
+  annyang.init(commands);
+  annyang.start();
+}
+</script>
